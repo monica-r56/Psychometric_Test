@@ -20,8 +20,8 @@ import LanguageSelector from '../components/LanguageSelector';
 import QuestionSlider from '../components/QuestionSlider';
 import Registration, { CandidateData } from './Registration';
 
-const GRAPHQL_ENDPOINT = 'http://localhost:8080/v1/graphql';
-const HASURA_ADMIN_SECRET = 'Civ22jHTO5XTnqkzcE4yiF3Bds0BezO2GDEEaGwxHwSGuitkhSZQmKUfROdBqdkX';
+const GRAPHQL_ENDPOINT = '*******';
+const HASURA_ADMIN_SECRET = '********';
 
 const Index = () => {
   const dispatch = useDispatch();
