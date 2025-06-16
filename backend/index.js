@@ -15,9 +15,9 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
-const HASURA_URL = 'http://localhost:8080/v1/graphql';
-const HASURA_ADMIN_SECRET = 'Civ22jHTO5XTnqkzcE4yiF3Bds0BezO2GDEEaGwxHwSGuitkhSZQmKUfROdBqdkX';
-const HASURA_GRAPHQL_ENDPOINT = 'http://localhost:8080/v1/graphql';
+const HASURA_URL = '*******';
+const HASURA_ADMIN_SECRET = '**********';
+const HASURA_GRAPHQL_ENDPOINT = '*************';
 // Axios client for Hasura
 const hasuraClient = axios.create({
   baseURL: HASURA_URL,
